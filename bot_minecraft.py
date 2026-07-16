@@ -9,8 +9,8 @@ load_dotenv()
 
 # ================== CONFIG ==================
 TOKEN = os.getenv("DISCORD_TOKEN")
-MINECRAFT_IP = "TU_IP_AQUI"          # ← Cambia esto
-MINECRAFT_PORT = 25565
+MINECRAFT_IP = "Krypt_server.aternos.me"          # ← Cambia esto
+MINECRAFT_PORT = 43787
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
 
